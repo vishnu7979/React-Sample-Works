@@ -12,9 +12,10 @@ function App() {
     <div className="App">
       {/* <h1>Hello world</h1> */}
       <Container>       
-       <States name={"Kerala"}/>
+       <States name={"Kerala"} language={'Malayalam'}/>
        <States name={"Tamil nadu"}/>
        <States name={"Karnataka"}/>
+       <States name={"Andra Pradesh"}/>
       </Container>
 
 

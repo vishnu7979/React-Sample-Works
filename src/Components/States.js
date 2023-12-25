@@ -1,13 +1,14 @@
 import React from 'react'
 
-const States = (props) => {
+const States = ({name,language}) => {
   return (
-        <div>
-        <h1 className='bg-warning'>     
-        {props.name}
+        <div  className='bg-warning'>
+        <h1>     
+        {name}
         </h1> 
+        <h4>{language}</h4>
         </div>
   )
 }
 
-export default States
+export default States 
