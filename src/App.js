@@ -1,29 +1,21 @@
 import './App.css';
-// import Navbar from './Components/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import States from './Components/States';
-import { Container } from 'react-bootstrap'
-
-// import Home from './Components/Home';
-// import Footer from './Components/Footer';
+import Products from './Components/Products/Products';
+import { Container } from 'react-bootstrap';
+ 
 
 function App() {
+ 
+    
   return (
     <div className="App">
-      {/* <h1>Hello world</h1> */}
-      <Container>       
-       <States name={"Kerala"} language={'Malayalam'}/>
-       <States name={"Tamil nadu"}/>
-       <States name={"Karnataka"}/>
-       <States name={"Andra Pradesh"}/>
-      </Container>
+  
+    <Container>
 
-
-       {/* <Navbar />
-       <Home />
-       <Home />
-       <Home />
-       <Footer /> */}
+    <Products />
+    
+    </Container>
+  
     </div>
   );
 }
